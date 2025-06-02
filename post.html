@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+    <main>
+        <article>
+            <h2>5 Tips For Better Productivity</h2>
+            <img src="article images/first post.jpg" alt="Blog image" class="blog-img"/>
+            <p>Here are 5 simple and effective ways to improve your productivity:</p>
+            <ul>
+                <li><strong>Set clear goals each morning:</strong> Start your day knowing exactly what you want to accomplish.</li>
+                <li><strong>Use a task manager:</strong> Apps like Todoist or Trello help you organize and track tasks efficiently.</li>
+                <li><strong>Take short breaks:</strong> Use the Pomodoro technique — work for 25 minutes, then take a 5-minute break.</li>
+                <li><strong>Minimize distractions:</strong> Turn off notifications and create a focused work environment.</li>
+                <li><strong>Review your day:</strong> Reflect on what you achieved and plan improvements for tomorrow.</li>
+            </ul>
+        </article>
+        <section id="comments">
+            <h3>comments</h3>
+            <ul id="comment-list"></ul>
+            <textarea id="comment-input" placeholder="Write a comment..."></textarea>
+            <button onclick="addComment()">Post Comment</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Blog.All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
